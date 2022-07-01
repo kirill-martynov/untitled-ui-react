@@ -5,7 +5,7 @@ module.exports = {
   plugins: [
     postcssNested,
     postcssCustomMedia({
-      importFrom: './src/styles/variables.css',
+      importFrom: './src/styles/media.css',
     }),
   ],
 };
